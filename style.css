@@ -1,5 +1,19 @@
 body {
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(220, 15%, 55%);
+}
+
+#box {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#bold-text {
+    font-weight: 700;
+}
+
+#light-text {
+    font-weight: 400;
 }
 
 .attribution { 
