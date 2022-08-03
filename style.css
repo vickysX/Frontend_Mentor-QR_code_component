@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
@@ -8,11 +12,9 @@ body {
 
 #outer-box {
     background-color: hsl(219, 85%, 84%);
-    margin: 100px auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 500px;
-    width: 90%;
+    margin: 50px;
+    padding: 50px;
+    width: 93%;
 }
 
 .rounded {
@@ -41,9 +43,11 @@ body {
     color: hsla(220, 1%, 51%, 0.964);
 }
 
-#attribution { 
+footer { 
     font-size: 11px; 
     text-align: center; 
+    padding-bottom: 5px;
+    padding-top: 50px;
 }
 
 #attribution a { 
