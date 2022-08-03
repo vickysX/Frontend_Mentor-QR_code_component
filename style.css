@@ -8,7 +8,10 @@ body {
 
 #outer-box {
     background-color: hsl(219, 85%, 84%);
-    margin: 500px;
+    margin: 100px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
     width: 90%;
 }
 
