@@ -1,6 +1,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    text-align: center;
     background-color: hsl(220, 15%, 55%);
 }
 
