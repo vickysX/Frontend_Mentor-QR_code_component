@@ -2,26 +2,47 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     text-align: center;
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(213, 31%, 94%);
+    margin: 0;
+}
+
+#outer-box {
+    background-color: hsl(219, 85%, 84%);
+    margin: 500px;
+    width: 90%;
+}
+
+.rounded {
+    border-radius: 10px;
 }
 
 #box {
     background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#box img {
+    width: 100%;
 }
 
 #bold-text {
     font-weight: 700;
+    font-size: 20px;
 }
 
 #light-text {
     font-weight: 400;
+    color: hsla(220, 1%, 51%, 0.964);
 }
 
-.attribution { 
+#attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 
-.attribution a { 
+#attribution a { 
     color: hsl(228, 45%, 44%); 
 }
