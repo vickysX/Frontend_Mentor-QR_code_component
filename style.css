@@ -12,8 +12,8 @@ body {
 
 #outer-box {
     background-color: hsl(219, 85%, 84%);
-    margin: 50px;
-    padding: 50px;
+    margin: 50px auto;
+    padding: 65px;
     width: 93%;
 }
 
@@ -33,6 +33,10 @@ body {
     width: 100%;
 }
 
+p {
+    margin-top: 15px;
+}
+
 #bold-text {
     font-weight: 700;
     font-size: 20px;
@@ -41,6 +45,7 @@ body {
 #light-text {
     font-weight: 400;
     color: hsla(220, 1%, 51%, 0.964);
+    margin-bottom: 15px;
 }
 
 footer { 
