@@ -81,6 +81,8 @@ footer {
     }
 
     footer {
+        height: 10%;
+        padding-top: 100px;
         padding-bottom: 0px;
     }
 }
